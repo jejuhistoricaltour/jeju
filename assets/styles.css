@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro');
+
+@font-face{
+ font-family:'Hangang';
+ font-style:normal;
+ font-weight:400;
+ src:url('./../fonts/SeoulHangangL.woff') format('woff'),
+     url('./../fonts/SeoulHangangL.eot') format('eot');
+}
+
+@font-face{
+ font-family:'Youth';
+ font-style:normal;
+ font-weight:400;
+ src:url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
+     url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
 html, body {
     height: 100%;
 }
@@ -10,10 +28,6 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-}
-
-p {
-	display: inline-block;
 }
 
 img.center {

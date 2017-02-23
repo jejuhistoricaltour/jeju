@@ -14,8 +14,25 @@ body {
   font: inherit;
 }
 
+@font-face{
+ font-family:'Youth';
+ font-style:normal;
+ font-weight:400;
+ src:url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
+     url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
+@font-face{
+ font-family:'Hangang';
+ font-style:normal;
+ font-weight:400;
+ src:url('./../fonts/SeoulHangangL.woff') format('woff'),
+     url('./../fonts/SeoulHangangL.eot') format('eot');
+}
+
+
 div {
-	width: 1000px;
+	width: 1024px;
 }
 img[usemap] {
 	border: none;
@@ -27,9 +44,9 @@ img[usemap] {
 #header {
 text-align:center;
 float: center;
-height: 130px;
+height: 80px;
 width: 1000px;
-line-height: 10px;
+line-height: 1px;
 }
 
 
@@ -111,14 +128,7 @@ line-height: 10px;
 }
 
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5em
-}
+
 
 body{
   box-sizing: border-box;
@@ -176,4 +186,18 @@ input[name=question]:checked + label + .response{
     height: 50px;
     overflow: hidden;
     opacity: 1 !important;
+}
+
+.title-ko {
+	font-family: 'Youth';
+}
+.title-en {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.content-ko {
+	font-family: 'Hangang';
+}
+.content-en {
+	font-family: 'Source Sans Pro', sans-serif;
 }
