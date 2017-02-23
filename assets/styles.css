@@ -16,26 +16,25 @@
      url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
 }
 
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
 
 body {
-    display: table-cell;
-    vertical-align: middle;
+	width: 95%;
+	margin: 10mm 10mm 10mm 10mm;
+	overflow-x:hidden;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#images img {
+	vertical-align: middle;
 }
 
 h1 {
 	text-align:center;
+}
+
+#images{
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
 }
