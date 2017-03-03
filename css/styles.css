@@ -18,8 +18,8 @@ body {
  font-family:'Youth';
  font-style:normal;
  font-weight:400;
- src:url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
-     url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+ src:url('./../fonts/Youth.woff2') format('woff2'),
+     url('./../Youth.woff') format('woff');
 }
 
 @font-face{
@@ -44,9 +44,9 @@ img[usemap] {
 #header {
 text-align:center;
 float: center;
-height: 80px;
+height: 120px;
 width: 1000px;
-line-height: 1px;
+line-height: 0.6;
 }
 
 
@@ -200,4 +200,21 @@ input[name=question]:checked + label + .response{
 }
 .content-en {
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#gforms {
+	width: 100%;
+	padding: 5% 5% 5% 5%;
+}
+
+
+:lang(en-GB) {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+:lang(en-US) {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+:lang(ko){
+	font-family: 'Hangang';
 }

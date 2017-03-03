@@ -12,8 +12,8 @@
  font-family:'Youth';
  font-style:normal;
  font-weight:400;
- src:url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
-     url('http://cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+ src:url('./../fonts/Youth.woff2') format('woff2'),
+     url('./../fonts/Youth.woff') format('woff');
 }
 
 *
@@ -46,4 +46,8 @@ h1 {
 	width:95%;
 	height:250px;
 	white-space:nowrap;
+}
+
+#images img {
+	text-align: center;
 }
